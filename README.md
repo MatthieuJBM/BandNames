@@ -25,3 +25,9 @@ Aquí tocaremos temas sobre:
 - Procedimiento para escuchar cuando un cliente se conecta y se desconecta.
   
 - Espero que sea de mucho interés para todo ustedes!
+
+node index.js en la terminal para correr nuestro backend.
+
+sudo npm i -g nodemon para instalar nodemon
+nodemon index - para correr el servidor
+
