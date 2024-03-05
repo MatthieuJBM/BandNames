@@ -32,3 +32,11 @@ sudo npm i -g nodemon para instalar nodemon
 nodemon index - para correr el servidor
 
 npm i dotenv
+
+Ajustamos el archivo package.json con lo siguiente:
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start": "node index.js",
+"start:dev": "nodemon index.js"
+},
+y después podemos utilizar en la terminal sea npm start o sea npm run start:dev
