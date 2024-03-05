@@ -31,3 +31,4 @@ node index.js en la terminal para correr nuestro backend.
 sudo npm i -g nodemon para instalar nodemon
 nodemon index - para correr el servidor
 
+npm i dotenv
