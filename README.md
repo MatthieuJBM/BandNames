@@ -4,13 +4,39 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Section3
 
-A few resources to get you started if this is your first Flutter project:
+Aquí tocaremos temas sobre:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Crear un backend en Node 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Crear directorios públicos
+  
+- Variables de entorno
+  
+- Configuración de Socket.io
+  
+- Emitir y escuchar eventos
+  
+- Separar la lógica en diferentes archivos
+  
+- Realizar respaldos en GitHub
+  
+- Procedimiento para escuchar cuando un cliente se conecta y se desconecta.
+  
+- Espero que sea de mucho interés para todo ustedes!
+
+node index.js en la terminal para correr nuestro backend.
+
+sudo npm i -g nodemon para instalar nodemon
+nodemon index - para correr el servidor
+
+npm i dotenv
+
+Ajustamos el archivo package.json con lo siguiente:
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start": "node index.js",
+"start:dev": "nodemon index.js"
+},
+y después podemos utilizar en la terminal sea npm start o sea npm run start:dev
