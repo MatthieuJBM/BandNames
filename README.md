@@ -40,3 +40,20 @@ Ajustamos el archivo package.json con lo siguiente:
 "start:dev": "nodemon index.js"
 },
 y después podemos utilizar en la terminal sea npm start o sea npm run start:dev
+
+# Section 4
+
+En esta sección tocaremos los siguientes temas:
+
+- Conectarnos a nuestro socket server
+
+- Escuchar y emitir eventos desde y hacia Flutter
+
+- Indicadores visuales del estado de la conexión
+
+- Re-conexión al socket server
+
+- CRUD basado en Sockets
+
+- Gráficas en tiempo real
+
